@@ -949,7 +949,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AgentTypeID: 0
-  m_StartPoint: {x: -9.437485, y: 5.7439127, z: 0}
+  m_StartPoint: {x: -9.668514, y: 5.7439127, z: 0}
   m_EndPoint: {x: 0, y: 0, z: 0}
   m_Width: 15
   m_CostModifier: -1
@@ -1297,7 +1297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AgentTypeID: 0
-  m_StartPoint: {x: 8.288712, y: 5.7919474, z: 0}
+  m_StartPoint: {x: 9.335022, y: 5.7919474, z: 0}
   m_EndPoint: {x: 0, y: 0, z: 0}
   m_Width: 15
   m_CostModifier: -1
