@@ -10,6 +10,7 @@ public class AIMovement : MonoBehaviour
     public Transform centerPoint;
     public float range;
     public Transform player;
+    public float backDis;
 
     public Color originalColor;
     public Color touchColor = Color.green;
@@ -28,6 +29,11 @@ public class AIMovement : MonoBehaviour
         }
         else if(isFollowingPlayer == false)
         {
+            if (Vector3.Distance(transform.position, player.position) < backDis)
+            {
+                transform.position = Vector3.MoveTowards(transform.position, player.position, (-navMeshAgent.speed - 2f) * Time.deltaTime);
+            }
+
             if (navMeshAgent.remainingDistance <= navMeshAgent.stoppingDistance)
             {
                 Vector3 point;
